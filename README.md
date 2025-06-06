@@ -15,5 +15,5 @@ This project is a virtual assistant interface featuring a 3D avatar powered by R
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/vaishnavideshmukh8/vd-avatar-assistant.git
+   git clone https://github.com/vaishnavideshmukh8/vd-avatar-assistant
 
