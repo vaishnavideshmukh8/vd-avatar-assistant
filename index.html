@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VD - Your Call Center Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Import Three.js for 3D rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <!-- Add viseme.js for lip sync -->
+    <script src="https://cdn.jsdelivr.net/npm/viseme.js@1.0.0/dist/viseme.min.js"></script>
+    <!-- Add Howler.js for audio analysis -->
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.min.js"></script>
+</head>
+<body>
+    <div class="avatar-container">
+        <div id="avatar-viewer"></div>
+        <div class="avatar-info">
+            <div class="greeting-bubble">
+                <p>Hi I am VD, how may I help you today?</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Hidden elements that would normally allow avatar selection -->
+    <div class="avatar-selection" style="display: none;">
+        <!-- Normally this would contain avatar options -->
+    </div>
+    
+    <!-- Audio element for speech synthesis -->
+    <audio id="speech-audio" hidden></audio>
+</body>
+</html>
